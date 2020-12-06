@@ -1,20 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <Company>mrousavy</Company>
-    <Copyright>Copyright ©  2017</Copyright>
-    <Description>A high performance .NET library for reading and creating (animated) GIFs</Description>
-    <Version>1.0.5</Version>
-    <Authors>mrousavy</Authors>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageProjectUrl>https://github.com/mrousavy/AnimatedGif</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/mrousavy/AnimatedGif/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/mrousavy/AnimatedGif/master/AnimatedGif/Icon.ico</PackageIconUrl>
-    <RepositoryUrl>https://github.com/mrousavy/AnimatedGif</RepositoryUrl>
-    <RepositoryType>GitHub Open Source</RepositoryType>
-    <PackageTags>Animated GIF Create Load Encoder Encoding Decoder Decoding</PackageTags>
-    <PackageReleaseNotes>Migrate to .NET Standard</PackageReleaseNotes>
+    <TargetFramework>net5.0</TargetFramework>
+    <LangVersion>preview</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
